@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package format="2">
+
+  <name>cuscobot</name>
+  <version>0.0.1</version>
+
+  <description>
+    Pacote ROS do robô Cuscobot.
+  </description>
+
+  <maintainer email="cardonixjr@gmail.com">Luciano Cardona Jr</maintainer>
+
+  <license>TODO</license>
+
+  <!-- Build dependencies -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>map_server</depend>
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>rviz</depend>
+  <depend>tf2</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>amcl</depend>
+  <depend>xacro</depend>
+
+  <export>
+  </export>
+
+</package>
